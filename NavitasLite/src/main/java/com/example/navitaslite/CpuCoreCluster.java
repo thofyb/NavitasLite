@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CpuCoreCluster {
-    protected int numCores;
-    protected List<Long> speeds;
-    protected List<Float> powers;
+    public int numCores;
+    public List<Long> speeds;
+    public List<Float> powers;
 
     public CpuCoreCluster(int numCores) {
         this.numCores = numCores;
